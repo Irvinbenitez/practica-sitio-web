@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,500;1,300;1,900&display=swap');
+*{
+    font-family: 'Roboto', sans-serif;;
+}
+
+.navbar-nav{
+    text-align: right;
+} 
+
+.custom-toggler .navbar-toggler-icon {
+    border-color: #fff;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+}
+
+.container h1{
+    text-align: center;
+}
+
+.container .parrafo p{
+    font-size: 20px;
+}
+
+.container .left{
+    text-align: justify;
+    margin-top: 150px;
+}
+
+.container .right{
+    text-align: justify;
+}
+
+h1{
+  text-align: center;  
+}
+
+.case{
+    border: 1px solid #000;
+}
+
+.case{
+    display: inline-block;
+    padding: 50px;
+    margin: 70px;
+    border-radius: 20px;
+    box-shadow: 5px 0px 5px #000;
+}
+
+.case:hover{
+    background:  #6666ff;
+    color: #fff;
+}
+
+.image img{
+    width: 200px;
+    float: right;
+}
+
+.case .precio{
+    text-align: center;
+}
+
+.logos{
+    float: left;
+}
+
+.img{
+    display: inline-block;
+    margin-left: 100px;
+}
+
+.img img{
+    width: 250px;
+    float: right;
+}
+
+.footer {
+    width: 100%;
+    position: relative;
+    height: auto;
+    background-color: #070617;
+  }
+  .footer .col {
+    width: 190px;
+    height: auto;
+    float: left;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding: 0px 20px 20px 20px;
+    margin-left: 200px;
+  }
+  .footer .col h1 {
+    margin: 0;
+    padding: 0;
+    font-family: inherit;
+    font-size: 12px;
+    line-height: 17px;
+    padding: 20px 0px 5px 0px;
+    color: rgba(255,255,255,0.2);
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 0.250em;
+  }
+  .footer .col ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  .footer .col ul li {
+    color: #999999;
+    font-size: 14px;
+    font-family: inherit;
+    font-weight: bold;
+    padding: 5px 0px 5px 0px;
+    cursor: pointer;
+    transition: .2s;
+    -webkit-transition: .2s;
+    -moz-transition: .2s;
+    text-align: center;
+  }
+  .social ul li {
+    display: inline-block;
+    padding-right: 5px !important;
+  }
+  
+  .footer .col ul li:hover {
+    color: #ffffff;
+    transition: .1s;
+    -webkit-transition: .1s;
+    -moz-transition: .1s;
+  }
+  .clearfix {
+    clear: both;
+  }
+
+  .copy{
+    text-align: center;
+    color: #fff;
+  }
